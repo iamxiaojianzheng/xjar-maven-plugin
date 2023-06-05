@@ -1,14 +1,14 @@
 # XJar-Maven-Plugin [![](https://jitpack.io/v/core-lib/xjar-maven-plugin.svg)](https://jitpack.io/#core-lib/xjar-maven-plugin)
-#### XJar-Maven-Plugin 是对 [XJar](https://github.com/core-lib/xjar) 的一个Maven Plugin封装，实现可通过Maven命令或绑定在Maven构建的生命周期之中执行，用以更加便捷的方式集成 [XJar](https://github.com/core-lib/xjar) 。
+#### XJar-Maven-Plugin 是对 [XJar](https://github.com/iamxiaojianzheng/xjar) 的一个Maven Plugin封装，实现可通过Maven命令或绑定在Maven构建的生命周期之中执行，用以更加便捷的方式集成 [XJar](https://github.com/core-lib/xjar) 。
 
-GitHub: https://github.com/core-lib/xjar-maven-plugin
+GitHub: https://github.com/iamxiaojianzheng/xjar-maven-plugin
 
 ## 什么是XJar
 XJar 是基于对JAR包内资源的加密以及拓展ClassLoader来构建的一套程序加密启动，动态解密运行的方案，避免源码泄露或反编译，支持Spring Boot JAR 安全加密运行，同时支持的原生JAR。
 更多文档请点击：[XJar](https://github.com/core-lib/xjar)
 
 ## 环境依赖
-JDK 1.7 +
+JDK 1.8 +
 
 ## 集成步骤
 ```xml
@@ -24,9 +24,9 @@ JDK 1.7 +
     <build>
         <plugins>
             <plugin>
-                <groupId>com.github.core-lib</groupId>
+                <groupId>com.xiaojianzheng</groupId>
                 <artifactId>xjar-maven-plugin</artifactId>
-                <version>4.0.2</version>
+                <version>4.0.3</version>
                 <executions>
                     <execution>
                         <goals>
